@@ -24,3 +24,4 @@ names.Randomize()
 
 I made this for learning Go Language.
 However, this can be very helpful if you are in the need of Colorful-Awesome-Animals.
+Or click [here](https://colorful-awesome-animals.herokuapp.com/names), if you need just a few of them:
