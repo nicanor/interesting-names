@@ -2,14 +2,12 @@ package names
 
 import "math/rand"
 
-func Create(c, a int) string {
-    return color(c) + "-" + animal(a)
-}
-
+// Get a random Colorful-Awesome-Animal
 func Randomize() string {
-    return Create(rand.Intn(32), rand.Intn(32))
+    return Create(rand.Intn(32), rand.Intn(32), rand.Intn(32))
 }
 
-func GetNum() int {
-    return rand.Intn(32)
+// Get a specific Colorful-Awesome-Animal
+func Create(q, c, a int) string {
+    return color(c) + "-" + quality(q) + "-" + animal(a)
 }

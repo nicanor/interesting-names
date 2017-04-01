@@ -10,5 +10,5 @@ func main() {
     // que no retorne siempre el mismo resultado.
     rand.Seed(time.Now().Unix())
 
-    fmt.Printf(names.Randomize())
+    fmt.Printf(names.Randomize() + "\n")
 }
