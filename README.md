@@ -2,14 +2,23 @@
 
 Trying Go language.
 
-### Get Colorful animals:
+### Get Colorful-Awesome-Animals:
 
 
 ``` go
 names.Randomize()
-// Can return things like:
-// yellow-elephant
-// jade-crocodile
-// violet-hamster
-// violet-hamster
+// Examples:
+//   silver-emotional-chimpanzee
+//   platinum-compassionate-lion
+//   orange-understanding-bear
+//   turquoise-generous-hamster
+//   amber-enthusiastic-frog
+//   green-generous-kangaroo
+//   red-sympathetic-goldfish
+//   magenta-considerate-chicken
 ```
+
+### Why whould I need this?
+
+I made this for learning Go Language.
+However, this can be very helpful if you are in the need of Colorful-Awesome-Animals.
