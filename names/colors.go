@@ -1,4 +1,4 @@
-package creator
+package names
 
 func color(x int) string {
     switch x {

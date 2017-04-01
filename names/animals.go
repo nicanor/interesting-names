@@ -1,4 +1,4 @@
-package creator
+package names
 
 func animal(x int) string {
     switch x {
