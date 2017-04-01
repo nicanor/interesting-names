@@ -8,6 +8,6 @@ func Randomize() string {
 }
 
 // Get a specific Colorful-Awesome-Animal
-func Create(q, c, a int) string {
-    return color(c) + "-" + quality(q) + "-" + animal(a)
+func Create(aw, c, a int) string {
+    return color(c) + "-" + awesomeness(aw) + "-" + animal(a)
 }

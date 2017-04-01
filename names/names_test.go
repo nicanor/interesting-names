@@ -3,15 +3,19 @@ package names
 import "testing"
 import "fmt"
 
-func BenchmarkColor(b *testing.B) {
+func BenchmarkFirst(b *testing.B) {
     for i := 0; i < b.N; i++ {
-        color(15)
+        animal(0)
+        color(0)
+        awesomeness(0)
     }
 }
 
-func BenchmarkAnimal(b *testing.B) {
+func BenchmarkLast(b *testing.B) {
     for i := 0; i < b.N; i++ {
-        color(15)
+        animal(31)
+        color(31)
+        awesomeness(31)
     }
 }
 
@@ -23,4 +27,9 @@ func ExampleColor() {
 func ExampleAnimal() {
     fmt.Println(animal(3))
     // Output: bee
+}
+
+func ExampleAwesomeness() {
+    fmt.Println(awesomeness(5))
+    // Output: charming
 }

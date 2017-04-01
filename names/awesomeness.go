@@ -1,6 +1,6 @@
 package names
 
-func quality(x int) string {
+func awesomeness(x int) string {
     switch x {
     case 0:
         return "adventurous"

@@ -23,5 +23,7 @@ names.Randomize()
 ### Why whould I need this?
 
 I made this for learning Go Language.
-However, this can be very helpful if you are in the need of Colorful-Awesome-Animals.
-Or click [here](https://colorful-awesome-animals.herokuapp.com/names), if you need just a few of them:
+
+However, this can be very helpful if you are in the need of **Colorful-Awesome-Animals**.
+
+You can click [here](https://colorful-awesome-animals.herokuapp.com/names), if you need just a few of them.
