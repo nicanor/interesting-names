@@ -1,5 +1,7 @@
 # interesting-names
 
+[![Build Status](https://travis-ci.org/nicanor/interesting-names.svg?branch=master)](https://travis-ci.org/nicanor/interesting-names)
+
 Trying Go language.
 
 ### Get Colorful-Awesome-Animals:
